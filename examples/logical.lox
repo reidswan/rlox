@@ -1,0 +1,26 @@
+var w = nil or false or nil or false;
+var x = "a" and nil;
+var y = nil or false or 12;
+var z = nil and false;
+
+var success = true;
+if (w != false) {
+    success = false;
+    print "w should be false but is '" + w + "'!";
+}
+if (x != nil) {
+    success = false;
+    print "x should be nil but is '" + x + "'!";
+}
+if (y != 12) {
+    success = false;
+    print "y should be '12' but is '" + y + "'!";
+}
+if (z != nil) {
+    success = false;
+    print "z should be nil but is '" + z + "'!";
+}
+
+if (success) {
+    print "All tests passed";
+}

@@ -1,0 +1,13 @@
+// a first lox program!
+var a = nil;
+var b = nil;
+var c = nil;
+
+a = b = c = 1;
+c = 2;
+
+print a + b + c;
+
+
+print name;
+

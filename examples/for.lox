@@ -1,0 +1,15 @@
+for(var i = 0; i < 10; i = i + 1) print i;
+
+for (;false;) print "Should never run!";
+
+var i = 1;
+for (; i < 15; i = 2 * i) print i;
+
+for (;;) {
+    print i;
+    i = i + 1;
+    if (i > 155) { 
+        print "EXIT, PURSUED BY A BEAR";
+        i * nil;
+    }
+}

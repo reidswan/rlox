@@ -1,0 +1,11 @@
+var a = 0;
+var prev = -1;
+print "start";
+while (a < 10000) {
+    a = a + 1;
+    if (prev + 1 <= a/100) {
+        print a;
+        prev = a/100;
+    }
+}
+print "end";
